@@ -1,6 +1,6 @@
 {
-  "name": "@alia-code/components",
-  "version": "1.0.0",
+  "name": "alia-components",
+  "version": "0.0.1-alpha1",
   "main": "index.js",
   "homepage": "https://alia.ml/code/",
   "type": "module",
