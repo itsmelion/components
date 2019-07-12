@@ -1,5 +1,5 @@
-import { memo } from 'react'; // eslint-disable-line import/no-extraneous-dependencies
-import styled from 'styled-components'; // eslint-disable-line import/no-extraneous-dependencies
+import React, { memo } from 'react';
+import styled from 'styled-components';
 
 const S = {
   Button: styled.button`background: #33A; color: white;`,

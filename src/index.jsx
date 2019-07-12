@@ -1,16 +1,16 @@
-/* eslint-disable import/no-extraneous-dependencies */
+import React from 'react';
 import { render } from 'react-dom';
 import SuperButton from './components/SuperButton';
 
 const root = document.getElementById('root');
 
 const components = [
-  SuperButton
-]
+  SuperButton,
+];
 
 render(
   (
-    <div>
+    <main>
       <h1>Components</h1>
 
       <ul>
@@ -21,6 +21,6 @@ render(
           </li>
         ))}
       </ul>
-    </div>
+    </main>
   ), root,
 );
